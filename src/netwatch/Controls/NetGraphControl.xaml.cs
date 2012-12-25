@@ -111,13 +111,13 @@ namespace netwatch.Controls
 
             if (MainWindow.Instance != null)
             {
-                //MainWindow.Instance.TooltipTextBlock.Text = String.Format("Download : {0} , Uploads : {1}",
-                //                                                          lbl_Download.Content,
-                //                                                          lbl_Upload.Content);
+                MainWindow.Instance.TooltipTextBlock.Text = String.Format("Download : {0} , Uploads : {1}",
+                                                                          lbl_Download.Content,
+                                                                          lbl_Upload.Content);
                 Icon icofile = _networkUsage.GenerateIconFromCollection();
                 if (icofile != null)
                 {
-                    //MainWindow.Instance.taskbarIcon.Icon = icofile;
+                    MainWindow.Instance.taskbarIcon.Icon = icofile;
                     if (_networkUsage.PrevPointer != IntPtr.Zero)
                         Win32Functions.DestroyIcon(_networkUsage.PrevPointer);
                     icofile.Dispose();

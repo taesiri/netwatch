@@ -23,7 +23,7 @@ namespace netwatch
         {
             Instance = this;
             InitializeComponent();
-            ThemeManager.ChangeTheme(this, ThemeManager.DefaultAccents.First(a => a.Name == "Blue"), Theme.Light);
+            ThemeManager.ChangeTheme(this, ThemeManager.DefaultAccents.First(a => a.Name == "Netw"), Theme.Light);
         }
 
         private void WindowLoaded(object sender, RoutedEventArgs e)
@@ -89,7 +89,7 @@ namespace netwatch
 
         private void ToolTipToolTipOpening(object sender, RoutedEventArgs e)
         {
-            // TooltipTextBlock.Text = GenerateTooltip();
+            //TooltipTextBlock.Text = GenerateTooltip();
         }
 
         private void TaskbarIconTrayMouseDoubleClick(object sender, RoutedEventArgs e)
@@ -124,13 +124,13 @@ namespace netwatch
         {
             if (color == Theme.Dark)
             {
-                ThemeManager.ChangeTheme(this, ThemeManager.DefaultAccents.First(a => a.Name == "Blue"), Theme.Dark);
+                ThemeManager.ChangeTheme(this, ThemeManager.DefaultAccents.First(a => a.Name == "Netw"), Theme.Dark);
                 quickViewModeGadget.SwitchTheme(color);
                 detailedViewModelGadget.SwitchTheme(color);
             }
             else if (color == Theme.Light)
             {
-                ThemeManager.ChangeTheme(this, ThemeManager.DefaultAccents.First(a => a.Name == "Blue"), Theme.Light);
+                ThemeManager.ChangeTheme(this, ThemeManager.DefaultAccents.First(a => a.Name == "Netw"), Theme.Light);
                 quickViewModeGadget.SwitchTheme(color);
                 detailedViewModelGadget.SwitchTheme(color);
             }
