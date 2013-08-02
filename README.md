@@ -37,3 +37,14 @@ Desktop Gadget
 Tray Icon
 
 ![Screenshot3](http://i3.codeplex.com/Download?ProjectName=NetworkWatcher&DownloadId=582355)
+
+
+
+### Sponsorship
+===============================
+Network Watcher is proudly sponsored by NDepend!
+
+![NDepend](http://download-codeplex.sec.s-msft.com/Download?ProjectName=networkwatcher&DownloadId=713204)
+
+Find out more at [http://www.NDepend.com](http://www.NDepend.com).
+ 
